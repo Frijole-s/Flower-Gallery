@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Gallery</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            background: linear-gradient(45deg, rgb(0, 213, 213), rgb(8, 156, 107),aquamarine);
+            text-align: center;
+            color: aliceblue;
+
+        }
+        #title{
+            font-size: 50px;
+        }
+        .text{
+            background: linear-gradient(45deg, blue, blueviolet);
+            padding: 10px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            font-size: larger;
+        }
+
+        .gallery{
+            width:1100px;
+            height:100vh; 
+           padding: 15px;
+            margin:20px auto;
+            display:flex;
+            gap:10px;
+               flex-wrap: wrap;
+               background-color: rgb(245, 245, 245);
+            border-radius: 15px;
+            justify-content: center;
+
+        }
+
+        .gallery-items{ 
+            max-width:300px;
+            min-width:180px;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            
+
+        }
+        .gallery-items img{
+                width:200px ;
+                height:200px;
+                object-fit:cover;
+                display:block;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title"> Flower Gallery</h1>
+        <div class="gallery">
+            <div class="gallery-items">
+                <img src="Images/Dafodil.jpg" alt="Dafodil">
+                <div class="text">
+                    <p> Dafodil</p>
+                </div> 
+            </div>
+             <div class="gallery-items">
+                <img src="Images/Daisy.jpg" alt="Daisy">
+                <div class="text">
+                    <p> Daisy</p>
+                </div> 
+            </div>
+             <div class="gallery-items">
+                <img src="Images/Lavender.jpg" alt="Lavender">
+                <div class="text">
+                    <p> Lavender</p>
+                </div> 
+            </div>
+             <div class="gallery-items">
+                <img src="Images/Lily.jpg" alt="Lily">
+                <div class="text">
+                    <p> Lily</p>
+                </div> 
+            </div>
+             <div class="gallery-items">
+                <img src="Images/Nightshade.jpg" alt="Nightshade">
+                <div class="text">
+                    <p> Nightshade</p>
+                </div> 
+            </div>
+             <div class="gallery-items">
+                <img src="Images/Orchid.jpg" alt="Orchid">
+                <div class="text">
+                    <p> Orchid</p>
+                </div> 
+            </div>
+            <div class="gallery-items">
+                <img src="Images/Rose.jpg" alt="Rose">
+                <div class="text">
+                    <p> Rose</p>
+                </div> 
+            </div>             <div class="gallery-items">
+                <img src="Images/Snapdragon.jpg" alt="Snapdragon">
+                <div class="text">
+                    <p> Snapdragon</p>
+                </div> 
+            </div>       
+            <div class="gallery-items">
+                <img src="Images/Sunflower.jpg" alt="Sunflower">
+                <div class="text">
+                    <p> Sunflower</p>
+                </div> 
+            </div>            
+             <div class="gallery-items">
+                <img src="Images/Tulip.jpg" alt="Tulip">
+                <div class="text">
+                    <p> Tulip</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
